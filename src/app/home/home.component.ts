@@ -48,6 +48,8 @@ goals = []
     this._data.goal.subscribe(res => this.goals = res );
     this.itemCount = this.goals.length;
     this._data.changeGoal(this.goals);
+
+    this._data.getProduct();
   }
 
 
